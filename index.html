@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisar Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="titulo">Pesquisar Filmes</h1>
+            <form id="formularioBusca" class="formulario-busca">
+                <input
+                    type="text"
+                    id="campoBusca"
+                    class="campo-busca"
+                    placeholder="Digite o nome de um filme..."
+                    autocomplete="off"
+                >
+                <button type="submit" class="botao-busca" id="botaoBusca">
+                    <span class="icone-busca">🔍</span>
+                </button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div id="gradeFilmes" class="grade-filmes"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
